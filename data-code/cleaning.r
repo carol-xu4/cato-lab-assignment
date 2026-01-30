@@ -29,3 +29,4 @@ data = data %>%
         income_index = income / income[year == "1953-01-01"] * 100)
 
 # writing final dataset ----------------------------------------------------
+write_csv(data, "data/output/finaldata.csv")

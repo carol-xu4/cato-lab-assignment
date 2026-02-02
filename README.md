@@ -5,6 +5,8 @@
 
 ## Have middle-class incomes declined since the 1950s?
 
+Real median household income in the United States has risen from $40,870 in 1953 to $105,800 in 2024 (158.9%). However, this growth has been outpaced by the growth in GDP per capita, which has increased from $18,268 to $68,065 per person (272.6%). This indicates that although incomes have increased, the average American household now holds a smaller share of the U.S. economy. 
+
 ### Data sources:
 1. U.S. Census Bureau - Real Median Family Income in the United States (FRED)
     - Units: 2023 CPI adjusted dollars

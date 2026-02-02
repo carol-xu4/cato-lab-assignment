@@ -12,3 +12,7 @@
     - Units: 2017 Dollars
 
 Since the two datasets are adjusted by different metrics, both real income and GDP were indexed to compare relative growth over time, from 1953 to 2024. 
+
+![U.S. Median Household Income vs. GDP (indexed)](results/plot1.png)
+
+![U.S. Median Household Income vs. GDP (actual values)](results/plot2.png)

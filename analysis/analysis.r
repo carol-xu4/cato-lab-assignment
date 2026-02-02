@@ -68,35 +68,6 @@ ggsave("results/plot1.png",
 y1 = range(data$income)
 y2 = range(data$gdp)
 
-ggplot(data, aes(x = year)) +
-  geom_line(aes(y = income, color = "Median Household Income"),
-            linewidth = 4.0) +
-  geom_line(aes(y = rescale(gdp, to = y1, from = y2),
-            color = "GDP per Capita"),
-            linewidth = 4.0) +
-  scale_y_continuous(
-    name = "U.S. Real Median Household Income (2023 $)",
-    sec.axis = sec_axis(
-      ~ rescale(., to = y2, from = y1),
-      name = "Real GDP per Capita (2017 $)")) +
-  labs(title = "Median Income vs GDP per Capita (1953–2024)",
-    x = "Year",
-    y = NULL,
-    color = "") +
-  scale_x_date(
-    date_breaks = "10 years",
-    date_labels = "%Y") +
-  theme_stata() +
-  theme(
-    plot.title = element_text(size = 35, face = "bold"),
-    axis.title  = element_text(size = 25, face = "bold"),
-    axis.text   = element_text(size = 20),
-    plot.background = element_rect(fill = "white"),
-    legend.title = element_text(size = 18),
-    legend.text  = element_text(size = 16))
-ggsave("results/plot2.png", 
-    width = 18, height = 12)
-
 ggplot(data, aes(x = year)) + 
   geom_line(aes(y = income, color = "Median Household Income"),
             linewidth = 4.0) +

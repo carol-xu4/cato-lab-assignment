@@ -1,7 +1,7 @@
 # Cato Institute Data Research Lab
 ### Carol Xu
 
-5 February 226
+2 February 2026
 
 ## Have middle-class incomes declined since the 1950s?
 
